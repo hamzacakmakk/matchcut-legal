@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Support — MatchCut</title>
+<meta name="description" content="Help and answers for the MatchCut before-and-after photo app." />
+<style>
+  :root { color-scheme: light dark; }
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.65; margin: 0 auto; max-width: 720px; padding: 32px 20px 72px; }
+  h1 { font-size: 1.7rem; margin-bottom: 4px; }
+  h2 { font-size: 1.05rem; margin-top: 32px; }
+  .updated { color: #687080; font-size: .9rem; margin-top: 0; }
+  ul { padding-left: 20px; }
+  li { margin: 10px 0; }
+  footer { margin-top: 48px; color: #687080; font-size: .85rem; border-top: 1px solid rgba(127,127,127,.25); padding-top: 16px; }
+  a { color: #3157D5; }
+</style>
+</head>
+<body>
+
+<h1>Support</h1>
+<p class="updated">MatchCut — help and common questions.</p>
+
+<h2>The alignment guide is not moving</h2>
+<p>Alignment reads the phone's gyroscope, so it needs a real device — a simulator has no motion sensor — and motion access must be allowed for the app in your system settings. If the guide is frozen, leave the capture screen and come back; if it is still frozen, restarting the phone re-initialises the sensor.</p>
+
+<h2>The after photo will not line up</h2>
+<p>The guide matches the phone's <b>angle</b>, not its position. Stand roughly where you stood before, then tilt until the guide locks; small differences in distance are normal and usually read as a natural before/after. Shooting both photos in similar light makes the pair far more convincing than a perfect angle does.</p>
+
+<h2>The camera screen is black</h2>
+<p>Camera access is most likely denied. Open your system settings, find MatchCut, and turn the camera permission on. The same applies to photo access if importing or saving fails.</p>
+
+<h2>Export fails, or the button does nothing</h2>
+<p>Exporting renders the post and then saves it to your photo library or hands it to the share sheet, so it needs photo permission and a little free storage. If you are running the app inside Expo Go rather than a real build, export can be unavailable — the app says so plainly instead of crashing.</p>
+
+<h2>Where are my projects stored?</h2>
+<p>On your phone, in the app's private storage. Nothing is uploaded, so nothing syncs between devices and nothing can be recovered by us if the app is deleted. Export the posts you want to keep to your photo library.</p>
+
+<h2>I paid for Pro but it still looks locked</h2>
+<p>Open the paywall and tap <b>Restore purchases</b> — that re-checks your store account. Make sure you are signed in with the same app store account that made the purchase. If it still does not unlock, close the app fully and reopen it; subscription status is re-checked at launch.</p>
+
+<h2>How do I cancel Pro?</h2>
+<p>In your app store account settings — Apple: Settings → your name → Subscriptions; Google: Play Store → Payments and subscriptions. Deleting the app does not cancel a subscription.</p>
+
+<h2>Contact</h2>
+<p>Use the support email listed on the app's App Store page. If you are reporting a bug, telling us your device, OS version and the app version from <b>Settings</b> makes it much faster to fix.</p>
+
+<footer>See also the <a href="./privacy.html">Privacy Policy</a> and <a href="./terms.html">Terms of Use</a>.</footer>
+
+</body>
+</html>
